@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pandas-workshop"
+version = "0.1.0"
+description = ""
+authors = ["Joshua Reynolds <jreynolds@electrichand.com>"]
+readme = "README.md"
+packages = [{include = "pandas_workshop"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+pandas = "^2.0.1"
+numpy = "^1.24.3"
+pandas-datareader = "^0.10.0"
+requests = "^2.30.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
